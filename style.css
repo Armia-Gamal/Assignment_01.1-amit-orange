@@ -160,6 +160,7 @@ p {
     align-items: center;
     flex-wrap: wrap;
     background-image: url(./R.jpeg);
+    
 
 }
 .col-1 {
@@ -172,7 +173,7 @@ p {
     align-items: center;
     width: auto;
     height: auto;
-    padding: 0 30px 50px;
+    overflow: auto;
 }
 .gal-text {
     width: 400px;
