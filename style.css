@@ -276,7 +276,7 @@ p {
         transform: translateX(0);
     }
 }
-.wow{
+#h5{
     animation-name:gg ;
     animation-duration: 3s;
 }
@@ -288,7 +288,7 @@ p {
         transform: translateX(0);
     }
 }
-.wow1{
+#a6{
     animation-name:bb ;
     animation-duration: 3s;
 }
