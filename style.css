@@ -280,6 +280,31 @@ p {
     animation-name:gg ;
     animation-duration: 3s;
 }
+@media screen and (max-width : 800px) {
+    .navLinks{
+        display: none;
+        width: 300px;
+        height: calc(100vh - 48px);
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: 48px;
+        right: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .toggler{
+        cursor: pointer;
+        height: 35px;
+        display: block;
+    }
+
+    .navSettings:hover .navLinks{
+        display: flex;
+    }
+}
+
 @keyframes bb{
     0%{
         opacity: 0;
